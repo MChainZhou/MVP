@@ -1,5 +1,5 @@
 //
-//  AppDelegate.h
+//  MainViewController.h
 //  MVP
 //
 //  Created by apple on 2016/12/29.
@@ -7,11 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+@class User;
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
-
-@property (strong, nonatomic) UIWindow *window;
-
-
+@interface MainViewController : UIViewController
+///
+@property(nonatomic, strong) User *user;
 @end
-
